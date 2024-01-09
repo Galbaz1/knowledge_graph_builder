@@ -1,0 +1,17 @@
+        "name": "GODFATHER",
+        "ingredients": [
+            "Johnny Walker black label",
+            "Disaronno amaretto",
+            "bitters"
+        ],
+        "price": 9.0,
+        "ingredient_notes": [
+            "Johnny Walker Black Label adds rich, complex whisky notes with hints of vanilla and a smoky finish.",
+            "Disaronno amaretto provides a sweet, almond-like flavor that is both rich and warm.",
+            "Bitters contribute a layer of spice and balance, enhancing the overall depth of the cocktail."
+        ],
+        "tasting_notes": [
+            "The GODFATHER offers a robust and sophisticated sipping experience. The smokiness of the Johnny Walker Black Label pairs beautifully with the sweet almond notes of the Disaronno amaretto. The bitters ensure a balanced drink, with just enough spice to add complexity without overpowering the whisky's smooth character.",
+            "On the nose, one is greeted with the alluring blend of smoke and sweetness, while the palate is treated to a harmonious interplay of whisky warmth and nutty undertones. The finish is pleasantly lingering with a satisfying bittersweet complexity."
+        ],
+        "category": "Rocks"

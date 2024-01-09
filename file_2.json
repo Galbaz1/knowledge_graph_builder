@@ -1,0 +1,105 @@
+[
+    {
+        "type": "cocktail",
+        "name": "RAMOS GIN FIZZ",
+        "ingredients": [
+            {
+                "name": "Tanqueray gin",
+                "notes": "Tanqueray gin provides a crisp and dry juniper flavor base.",
+                "type": "ingredient"
+            },
+            {
+                "name": "fresh lemon",
+                "notes": "Fresh lemon adds a bright and citrusy zing.",
+                "type": "ingredient"
+            },
+            {
+                "name": "sugar",
+                "notes": "Sugar adds sweetness that balances the tartness of lemon.",
+                "type": "ingredient"
+            },
+            {
+                "name": "orange flower water",
+                "notes": "Orange flower water gives a subtle floral note.",
+                "type": "ingredient"
+            },
+            {
+                "name": "Rose bitters",
+                "notes": "Rose bitters contribute a delicate spicy and floral aroma.",
+                "type": "ingredient"
+            },
+            {
+                "name": "cream",
+                "notes": "Cream lends a rich and velvety texture.",
+                "type": "ingredient"
+            },
+            {
+                "name": "egg white",
+                "notes": "Egg white creates a frothy and smooth mouthfeel.",
+                "type": "ingredient"
+            }
+        ],
+        "price": 13.0,
+        "tasting_notes": [
+            {
+                "description": "The RAMOS GIN FIZZ offers a unique balance between the crispness of gin and the freshness of citrus.",
+                "type": "tasting_note"
+            },
+            {
+                "description": "Subtle sweet and floral notes from the sugar, orange flower water, and rose bitters provide complexity.",
+                "type": "tasting_note"
+            },
+            {
+                "description": "The creamy and frothy texture makes it taste indulgent yet refreshing.",
+                "type": "tasting_note"
+            },
+            {
+                "description": "Ideal for those who appreciate a classic cocktail with a rich mouthfeel and a complex bouquet of flavors and aromas.",
+                "type": "tasting_note"
+            }
+        ],
+        "category": "Highball"
+    },
+    {
+        "type": "cocktail",
+        "name": "Margarita",
+        "ingredients": [
+            {
+                "name": "El Jimador reposado tequila",
+                "notes": "El Jimador reposado tequila gives a smooth oak and vanilla note with a hint of cooked agave.",
+                "type": "ingredient"
+            },
+            {
+                "name": "triple sec",
+                "notes": "Triple sec adds a sweet, orange citrus flavor that brightens the cocktail.",
+                "type": "ingredient"
+            },
+            {
+                "name": "fresh lime juice",
+                "notes": "Fresh lime juice brings a tart and refreshing acidity, balancing the sweetness of the triple sec.",
+                "type": "ingredient"
+            }
+        ],
+        "price": 11.0,
+        "tasting_notes": [
+            {
+                "description": "The Margarita has a harmonious blend of sweet, sour, and tequila's smooth warmth.",
+                "type": "tasting_note"
+            },
+            {
+                "description": "Expect a refreshing citrus aroma with undertones of oak and vanilla.",
+                "type": "tasting_note"
+            },
+            {
+                "description": "On the palate, the tartness of lime complements the sweetness of triple sec, while the reposado tequila provides a mellow complexity.",
+                "type": "tasting_note"
+            },
+            {
+                "description": "The finish is crisp with a lingering citrusy aftertaste.",
+                "type": "tasting_note"
+            }
+        ],
+        "category": "Rocks"
+    } 
+]
+   
