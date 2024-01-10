@@ -2,4 +2,4 @@ openai
 instructor
 pydantic
 graphviz
-# graphviz (download from https://graphviz.org/download/)
+# graphviz use brew or download from https://graphviz.org/download/)
