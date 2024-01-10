@@ -5,6 +5,7 @@ Product Development:
 
 Technology Stack:
 - GPT-4: For natural language processing, understanding, and generation.
+- Instructor: For structured data extraction and generation with LLMs
 - LangChain: For streamlined integration and building complex chatbot applications.
 - Multimodal Capabilities: Incorporating GPT-4's ability to process images alongside text for comprehensive customer support.
 

@@ -1,69 +1,92 @@
 // Knowledge Graph
 digraph {
-	21 [label="Revenue Streams" color=orange]
-	26 [label="Customizable Chatbot Personalities" color=green]
-	14 [label="advanced language processing" color=orange]
-	23 [label="Customer Acquisition" color=orange]
-	1 [label="AI BUILDERS CLUB" color=blue]
-	10 [label="healthcare providers" color=green]
-	2 [label="customer service chatbots" color=green]
-	29 [label="Phase 1: MVP with basic chat functionalities" color=green]
-	22 [label="Pricing Strategy" color=orange]
-	25 [label="Multilingual Support" color=green]
-	6 [label="AI in customer service" color=green]
-	24 [label="Instant Response" color=green]
-	30 [label="Phase 2: Image processing and advanced customization" color=green]
-	27 [label="Advanced Analytics" color=green]
-	13 [label="Competitor Names" color=red]
-	7 [label="global chatbot market" color=green]
-	16 [label="Product Development" color=blue]
-	20 [label="Development Roadmap" color=orange]
-	33 [label="Premium Support and Customization" color=green]
-	12 [label="Market Value" color=red]
-	11 [label="medium to large enterprises" color=green]
-	32 [label="Subscription Model" color=green]
-	31 [label="Phase 3: Analytics and continuous learning" color=green]
-	18 [label="Technology Stack" color=orange]
-	9 [label="financial services" color=green]
-	3 [label="OpenAI's GPT-4" color=orange]
-	19 [label="Feature Set" color=orange]
-	17 [label="Business Model" color=blue]
-	34 [label="Enterprise Solutions" color=green]
-	8 [label="e-commerce platforms" color=green]
-	28 [label="Multimodal Capabilities" color=green]
-	15 [label="efficient application-building" color=orange]
-	4 [label=LangChain color=orange]
-	5 [label="personalized customer interactions" color=green]
-	1 -> 2 [label="aims to develop" color=black]
-	2 -> 3 [label="powered by" color=black]
-	18 -> 3 [label=utilizes color=black]
-	16 -> 19 [label=includes color=black]
-	19 -> 24 [label=features color=black]
-	19 -> 26 [label=features color=black]
-	1 -> 11 [label="focus on" color=black]
-	17 -> 22 [label=includes color=black]
-	1 -> 13 [label="competitors include" color=black]
-	21 -> 33 [label=offers color=black]
-	3 -> 14 [label=enables color=black]
-	6 -> 7 [label="growth in" color=black]
-	20 -> 30 [label="followed by" color=black]
-	1 -> 9 [label="target market includes" color=black]
-	16 -> 18 [label=includes color=black]
-	16 -> 20 [label=includes color=black]
-	2 -> 5 [label=deliver color=black]
-	7 -> 12 [label=worth color=black]
-	21 -> 32 [label=offers color=black]
-	2 -> 4 [label="powered by" color=black]
-	18 -> 4 [label=utilizes color=black]
-	21 -> 34 [label=offers color=black]
-	19 -> 25 [label=features color=black]
-	1 -> 8 [label="target market includes" color=black]
-	19 -> 27 [label=features color=black]
-	20 -> 31 [label="culminates in" color=black]
-	4 -> 15 [label=enables color=black]
-	17 -> 21 [label=includes color=black]
-	18 -> 28 [label=incorporates color=black]
-	1 -> 10 [label="target market includes" color=black]
-	17 -> 23 [label=includes color=black]
-	20 -> 29 [label="begins with" color=black]
+	nodesep=0.6 rankdir=TB ranksep=1.2
+	subgraph cluster_executive_summary {
+		color=lightgrey fontcolor=black fontname=Helvetica fontsize=12 label="Executive Summary" labeljust=l style=filled
+	}
+	subgraph cluster_market_analysis {
+		color=lightgrey fontcolor=black fontname=Helvetica fontsize=12 label="Market Analysis" labeljust=l style=filled
+	}
+	subgraph cluster_product_description {
+		color=lightgrey fontcolor=black fontname=Helvetica fontsize=12 label="Product Description" labeljust=l style=filled
+	}
+	subgraph cluster_marketing_strategy {
+		color=lightgrey fontcolor=black fontname=Helvetica fontsize=12 label="Marketing Strategy" labeljust=l style=filled
+	}
+	subgraph cluster_organizational_structure {
+		color=lightgrey fontcolor=black fontname=Helvetica fontsize=12 label="Organizational Structure" labeljust=l style=filled
+	}
+	subgraph cluster_financial_projections {
+		color=lightgrey fontcolor=black fontname=Helvetica fontsize=12 label="Financial Projections" labeljust=l style=filled
+	}
+	subgraph cluster_sales_strategy {
+		color=lightgrey fontcolor=black fontname=Helvetica fontsize=12 label="Sales Strategy" labeljust=l style=filled
+	}
+	subgraph cluster_competitive_analysis {
+		color=lightgrey fontcolor=black fontname=Helvetica fontsize=12 label="Competitive Analysis" labeljust=l style=filled
+	}
+	subgraph cluster_operational_plan {
+		color=lightgrey fontcolor=black fontname=Helvetica fontsize=12 label="Operational Plan" labeljust=l style=filled
+	}
+	subgraph cluster_appendix {
+		color=lightgrey fontcolor=black fontname=Helvetica fontsize=12 label=Appendix labeljust=l style=filled
+	}
+	1 [label="AI Builders Club" fillcolor="#8ab4f8" height=0.95 shape=ellipse style=filled width=0.95]
+	2 [label="Customer service chatbots" fillcolor="#34d399" height=0.925 shape=ellipse style=filled width=0.925]
+	3 [label="OpenAI's GPT-4" fillcolor="#f87171" height=0.9 shape=ellipse style=filled width=0.9]
+	4 [label="Instructor Library" fillcolor="#fdba74" height=0.85 shape=ellipse style=filled width=0.85]
+	5 [label=Pydantic fillcolor="#fdba74" height=0.8 shape=ellipse style=filled width=0.8]
+	6 [label="E-commerce platforms" fillcolor="#a78bfa" height=0.875 shape=ellipse style=filled width=0.875]
+	7 [label="Financial services" fillcolor="#a78bfa" height=0.875 shape=ellipse style=filled width=0.875]
+	8 [label="Healthcare providers" fillcolor="#a78bfa" height=0.875 shape=ellipse style=filled width=0.875]
+	9 [label="Global chatbot market" fillcolor="#fde047" height=0.9 shape=ellipse style=filled width=0.9]
+	10 [label="1 billion dollar market value" fillcolor="#fde047" height=0.825 shape=ellipse style=filled width=0.825]
+	11 [label="Expected growth to 450 billion dollar" fillcolor="#fde047" height=0.825 shape=ellipse style=filled width=0.825]
+	12 [label="Technology Stack" fillcolor="#fdba74" height=0.9 shape=ellipse style=filled width=0.9]
+	13 [label="GPT-4" fillcolor="#f87171" height=0.9 shape=ellipse style=filled width=0.9]
+	14 [label=Instructor fillcolor="#fdba74" height=0.85 shape=ellipse style=filled width=0.85]
+	15 [label=LangChain fillcolor="#fdba74" height=0.85 shape=ellipse style=filled width=0.85]
+	16 [label="Multimodal Capabilities" fillcolor="#fdba74" height=0.85 shape=ellipse style=filled width=0.85]
+	17 [label="Feature Set" fillcolor="#34d399" height=0.9 shape=ellipse style=filled width=0.9]
+	18 [label="Instant Response" fillcolor="#34d399" height=0.85 shape=ellipse style=filled width=0.85]
+	19 [label="Multilingual Support" fillcolor="#34d399" height=0.85 shape=ellipse style=filled width=0.85]
+	20 [label="Customizable Chatbot Personalities" fillcolor="#34d399" height=0.85 shape=ellipse style=filled width=0.85]
+	21 [label="Advanced Analytics" fillcolor="#34d399" height=0.85 shape=ellipse style=filled width=0.85]
+	22 [label="Development Roadmap" fillcolor="#8ab4f8" height=0.875 shape=ellipse style=filled width=0.875]
+	23 [label="Phase 1: MVP with basic chat functionalities" fillcolor="#8ab4f8" height=0.825 shape=ellipse style=filled width=0.825]
+	24 [label="Phase 2: Image processing and advanced customization" fillcolor="#8ab4f8" height=0.825 shape=ellipse style=filled width=0.825]
+	25 [label="Phase 3: Analytics and continuous learning" fillcolor="#8ab4f8" height=0.825 shape=ellipse style=filled width=0.825]
+	26 [label="Business Model" fillcolor="#fde047" height=0.925 shape=ellipse style=filled width=0.925]
+	27 [label="Revenue Streams" fillcolor="#fde047" height=0.875 shape=ellipse style=filled width=0.875]
+	28 [label="Subscription Model" fillcolor="#fde047" height=0.825 shape=ellipse style=filled width=0.825]
+	29 [label="Premium Support and Customization" fillcolor="#fde047" height=0.825 shape=ellipse style=filled width=0.825]
+	30 [label="Enterprise Solutions" fillcolor="#fde047" height=0.825 shape=ellipse style=filled width=0.825]
+	31 [label="Pricing Strategy" fillcolor="#fde047" height=0.85 shape=ellipse style=filled width=0.85]
+	32 [label="Customer Acquisition" fillcolor="#fde047" height=0.85 shape=ellipse style=filled width=0.85]
+	26 -> 27 [label="defined by" color=black dir=forward penwidth=2.5]
+	22 -> 23 [label="starts with" color=black dir=forward penwidth=2.3]
+	22 -> 24 [label="followed by" color=black dir=forward penwidth=2.3]
+	2 -> 7 [label=targeting color=black dir=forward penwidth=2.5]
+	17 -> 19 [label=comprises color=black dir=forward penwidth=2.4]
+	26 -> 32 [label="achieved through" color=black dir=forward penwidth=2.4]
+	1 -> 2 [label="aims to develop" color=black dir=forward penwidth=2.8]
+	2 -> 3 [label="powered by" color=black dir=forward penwidth=2.7]
+	17 -> 21 [label=comprises color=black dir=forward penwidth=2.4]
+	9 -> 10 [label="current value" color=black dir=forward penwidth=2.3]
+	27 -> 29 [label=includes color=black dir=forward penwidth=2.3]
+	3 -> 4 [label=utilizes color=black dir=forward penwidth=2.6]
+	12 -> 14 [label=includes color=black dir=forward penwidth=2.4]
+	12 -> 16 [label=includes color=black dir=forward penwidth=2.4]
+	17 -> 18 [label=comprises color=black dir=forward penwidth=2.4]
+	2 -> 6 [label=targeting color=black dir=forward penwidth=2.5]
+	2 -> 8 [label=targeting color=black dir=forward penwidth=2.5]
+	17 -> 20 [label=comprises color=black dir=forward penwidth=2.4]
+	12 -> 13 [label=includes color=black dir=forward penwidth=2.6]
+	9 -> 11 [label="projected growth" color=black dir=forward penwidth=2.3]
+	27 -> 28 [label=includes color=black dir=forward penwidth=2.3]
+	12 -> 15 [label=includes color=black dir=forward penwidth=2.4]
+	26 -> 31 [label=involves color=black dir=forward penwidth=2.4]
+	22 -> 25 [label="culminates with" color=black dir=forward penwidth=2.3]
+	27 -> 30 [label=includes color=black dir=forward penwidth=2.3]
+	4 -> 5 [label=leverages color=black dir=forward penwidth=2.4]
 }
