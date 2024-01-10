@@ -1,0 +1,5 @@
+openai
+instructor
+pydantic
+graphviz
+# graphviz (download from https://graphviz.org/download/)

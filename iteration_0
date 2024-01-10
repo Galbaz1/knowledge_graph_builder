@@ -1,54 +1,24 @@
 // Knowledge Graph
 digraph {
-	nodesep=0.6 rankdir=TB ranksep=1.2
-	subgraph cluster_executive_summary {
-		color=lightgrey fontcolor=black fontname=Helvetica fontsize=12 label="Executive Summary" labeljust=l style=filled
-	}
-	subgraph cluster_market_analysis {
-		color=lightgrey fontcolor=black fontname=Helvetica fontsize=12 label="Market Analysis" labeljust=l style=filled
-	}
-	subgraph cluster_product_description {
-		color=lightgrey fontcolor=black fontname=Helvetica fontsize=12 label="Product Description" labeljust=l style=filled
-	}
-	subgraph cluster_marketing_strategy {
-		color=lightgrey fontcolor=black fontname=Helvetica fontsize=12 label="Marketing Strategy" labeljust=l style=filled
-	}
-	subgraph cluster_organizational_structure {
-		color=lightgrey fontcolor=black fontname=Helvetica fontsize=12 label="Organizational Structure" labeljust=l style=filled
-	}
-	subgraph cluster_financial_projections {
-		color=lightgrey fontcolor=black fontname=Helvetica fontsize=12 label="Financial Projections" labeljust=l style=filled
-	}
-	subgraph cluster_sales_strategy {
-		color=lightgrey fontcolor=black fontname=Helvetica fontsize=12 label="Sales Strategy" labeljust=l style=filled
-	}
-	subgraph cluster_competitive_analysis {
-		color=lightgrey fontcolor=black fontname=Helvetica fontsize=12 label="Competitive Analysis" labeljust=l style=filled
-	}
-	subgraph cluster_operational_plan {
-		color=lightgrey fontcolor=black fontname=Helvetica fontsize=12 label="Operational Plan" labeljust=l style=filled
-	}
-	subgraph cluster_appendix {
-		color=lightgrey fontcolor=black fontname=Helvetica fontsize=12 label=Appendix labeljust=l style=filled
-	}
+	11 [label="Healthcare Providers" fillcolor="#8ab4f8" height=0.85 shape=ellipse style=filled width=0.85]
+	2 [label="Customer Service Chatbots" fillcolor="#fdba74" height=0.9 shape=ellipse style=filled width=0.9]
+	6 [label="AI in Customer Service" fillcolor="#fdba74" height=0.85 shape=ellipse style=filled width=0.85]
+	7 [label="Global Chatbot Market" fillcolor="#fdba74" height=0.825 shape=ellipse style=filled width=0.825]
 	1 [label="AI Builders Club" fillcolor="#8ab4f8" height=0.95 shape=ellipse style=filled width=0.95]
-	2 [label="Customer service chatbots" fillcolor="#34d399" height=0.925 shape=ellipse style=filled width=0.925]
-	3 [label="OpenAI's GPT-4" fillcolor="#f87171" height=0.9 shape=ellipse style=filled width=0.9]
-	4 [label="Instructor Library" fillcolor="#fdba74" height=0.85 shape=ellipse style=filled width=0.85]
-	5 [label=Pydantic fillcolor="#fdba74" height=0.8 shape=ellipse style=filled width=0.8]
-	6 [label="E-commerce platforms" fillcolor="#a78bfa" height=0.875 shape=ellipse style=filled width=0.875]
-	7 [label="Financial services" fillcolor="#a78bfa" height=0.875 shape=ellipse style=filled width=0.875]
-	8 [label="Healthcare providers" fillcolor="#a78bfa" height=0.875 shape=ellipse style=filled width=0.875]
-	9 [label="Global chatbot market" fillcolor="#fde047" height=0.9 shape=ellipse style=filled width=0.9]
-	10 [label="1 billion dollar market value" fillcolor="#fde047" height=0.825 shape=ellipse style=filled width=0.825]
-	11 [label="Expected growth to 450 billion dollar" fillcolor="#fde047" height=0.825 shape=ellipse style=filled width=0.825]
-	9 -> 10 [label="current value" color=black dir=forward penwidth=2.3]
-	3 -> 4 [label=utilizes color=black dir=forward penwidth=2.6]
-	2 -> 7 [label=targeting color=black dir=forward penwidth=2.5]
-	2 -> 8 [label=targeting color=black dir=forward penwidth=2.5]
-	9 -> 11 [label="projected growth" color=black dir=forward penwidth=2.3]
-	1 -> 2 [label="aims to develop" color=black dir=forward penwidth=2.8]
-	2 -> 6 [label=targeting color=black dir=forward penwidth=2.5]
-	2 -> 3 [label="powered by" color=black dir=forward penwidth=2.7]
-	4 -> 5 [label=leverages color=black dir=forward penwidth=2.4]
+	3 [label="OpenAI's GPT-4" fillcolor="#34d399" height=0.925 shape=ellipse style=filled width=0.925]
+	12 [label="Competitive Landscape" fillcolor="#9ca3af" height=0.8 shape=ellipse style=filled width=0.8]
+	9 [label="E-commerce Platforms" fillcolor="#8ab4f8" height=0.85 shape=ellipse style=filled width=0.85]
+	5 [label=Pydantic fillcolor="#f87171" height=0.8 shape=ellipse style=filled width=0.8]
+	10 [label="Financial Services" fillcolor="#8ab4f8" height=0.85 shape=ellipse style=filled width=0.85]
+	4 [label="Instructor Library" fillcolor="#a78bfa" height=0.875 shape=ellipse style=filled width=0.875]
+	8 [label="Market Growth" fillcolor="#fdba74" height=0.825 shape=ellipse style=filled width=0.825]
+	2 -> 3 [label="powered by" color=black dir=forward style=solid]
+	6 -> 7 [label="part of" color=black dir=forward style=solid]
+	9 -> 11 [label="related market" color=black dir=forward style=dotted]
+	1 -> 2 [label="aims to develop" color=black dir=forward style=solid]
+	2 -> 4 [label=utilizes color=black dir=forward style=solid]
+	7 -> 8 [label="expected to" color=black dir=forward style=solid]
+	9 -> 10 [label="related market" color=black dir=forward style=dotted]
+	10 -> 11 [label="related market" color=black dir=forward style=dotted]
+	4 -> 5 [label=leverages color=black dir=forward style=solid]
 }

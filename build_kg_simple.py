@@ -1,9 +1,7 @@
 from openai import OpenAI
 import instructor
-
 from graphviz import Digraph
 from typing import List, Optional
-
 from pydantic import BaseModel, Field
 
 client = instructor.patch(OpenAI())
